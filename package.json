@@ -1,0 +1,17 @@
+{
+  "name": "marketapi",
+  "version": "1.0.0",
+  "description": "market for farmers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "market",
+    "api"
+  ],
+  "author": "Khushbu",
+  "license": "ISC",
+  "dependencies": {  
+  }
+}
