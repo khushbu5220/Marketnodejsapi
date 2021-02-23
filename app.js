@@ -8,7 +8,9 @@ const productRoutes = require("./api/routes/products");
 const orderRoutes = require("./api/routes/orders");
 
 mongoose.connect("mongodb://localhost:27017/market-api", {
-  usemongodbClient:true
+    useNewUrlParser:true,
+  useUnifiedTopology:true,
+  useCreateIndex:true  
 });
 
 app.use(morgan("dev"));
